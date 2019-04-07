@@ -1,0 +1,1464 @@
+The system is: Linux - 4.4.0-109-generic - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /usr/bin/cc 
+Build flags: 
+Id flags: 
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/scratch/satcheck/satproject/test/NuSMV-2.6.0/NuSMV/build/CMakeFiles/3.5.1/CompilerIdC/a.out"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /usr/bin/c++ 
+Build flags: 
+Id flags: 
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is GNU, found in "/scratch/satcheck/satproject/test/NuSMV-2.6.0/NuSMV/build/CMakeFiles/3.5.1/CompilerIdCXX/a.out"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: /scratch/satcheck/satproject/test/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/bin/make" "cmTC_58302/fast"
+/usr/local/bin/make -f CMakeFiles/cmTC_58302.dir/build.make CMakeFiles/cmTC_58302.dir/build
+make[1]: Entering directory `/scratch/satcheck/satproject/test/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_58302.dir/testCCompiler.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_58302.dir/testCCompiler.c.o   -c /scratch/satcheck/satproject/test/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_58302
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_58302.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_58302.dir/testCCompiler.c.o  -o cmTC_58302 -rdynamic 
+make[1]: Leaving directory `/scratch/satcheck/satproject/test/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeTmp'
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /scratch/satcheck/satproject/test/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/bin/make" "cmTC_3490f/fast"
+/usr/local/bin/make -f CMakeFiles/cmTC_3490f.dir/build.make CMakeFiles/cmTC_3490f.dir/build
+make[1]: Entering directory `/scratch/satcheck/satproject/test/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_3490f.dir/CMakeCCompilerABI.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_3490f.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.5/Modules/CMakeCCompilerABI.c
+Linking C executable cmTC_3490f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3490f.dir/link.txt --verbose=1
+/usr/bin/cc      -v CMakeFiles/cmTC_3490f.dir/CMakeCCompilerABI.c.o  -o cmTC_3490f -rdynamic  
+Using built-in specs.
+COLLECT_GCC=/usr/bin/cc
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 5.5.0-12ubuntu1~16.04' --with-bugurl=file:///usr/share/doc/gcc-5/README.Bugs --enable-languages=c,ada,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-5 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-5-amd64/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-5-amd64 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-5-amd64 --with-arch-directory=amd64 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-objc-gc --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+Thread model: posix
+gcc version 5.5.0 20171010 (Ubuntu 5.5.0-12ubuntu1~16.04) 
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_3490f' '-rdynamic' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/cc8CPRcv.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_3490f /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. CMakeFiles/cmTC_3490f.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o
+make[1]: Leaving directory `/scratch/satcheck/satproject/test/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeTmp'
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /scratch/satcheck/satproject/test/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/usr/local/bin/make" "cmTC_3490f/fast"]
+  ignore line: [/usr/local/bin/make -f CMakeFiles/cmTC_3490f.dir/build.make CMakeFiles/cmTC_3490f.dir/build]
+  ignore line: [make[1]: Entering directory `/scratch/satcheck/satproject/test/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_3490f.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/cc     -o CMakeFiles/cmTC_3490f.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.5/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTC_3490f]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3490f.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/cc      -v CMakeFiles/cmTC_3490f.dir/CMakeCCompilerABI.c.o  -o cmTC_3490f -rdynamic  ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/cc]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 5.5.0-12ubuntu1~16.04' --with-bugurl=file:///usr/share/doc/gcc-5/README.Bugs --enable-languages=c,ada,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-5 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-5-amd64/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-5-amd64 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-5-amd64 --with-arch-directory=amd64 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-objc-gc --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 5.5.0 20171010 (Ubuntu 5.5.0-12ubuntu1~16.04) ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_3490f' '-rdynamic' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/cc8CPRcv.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_3490f /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. CMakeFiles/cmTC_3490f.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/5/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/cc8CPRcv.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [--sysroot=/] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_3490f] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o] ==> ignore
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/5] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/5]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib]
+    arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+    arg [-L/lib/../lib] ==> dir [/lib/../lib]
+    arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+    arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/5/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../..]
+    arg [CMakeFiles/cmTC_3490f.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [--push-state] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--pop-state] ==> ignore
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--push-state] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--pop-state] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/5/crtend.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o] ==> ignore
+  remove lib [gcc]
+  remove lib [gcc_s]
+  remove lib [gcc]
+  remove lib [gcc_s]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/5] ==> [/usr/lib/gcc/x86_64-linux-gnu/5]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib] ==> [/usr/lib]
+  collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+  collapse library dir [/lib/../lib] ==> [/lib]
+  collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../..] ==> [/usr/lib]
+  implicit libs: [c]
+  implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/5;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib]
+  implicit fwks: []
+
+
+
+
+Detecting C [-std=c11] compiler features compiled with the following output:
+Change Dir: /scratch/satcheck/satproject/test/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/bin/make" "cmTC_5de97/fast"
+/usr/local/bin/make -f CMakeFiles/cmTC_5de97.dir/build.make CMakeFiles/cmTC_5de97.dir/build
+make[1]: Entering directory `/scratch/satcheck/satproject/test/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_5de97.dir/feature_tests.c.o
+/usr/bin/cc    -std=c11 -o CMakeFiles/cmTC_5de97.dir/feature_tests.c.o   -c /scratch/satcheck/satproject/test/NuSMV-2.6.0/NuSMV/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_5de97
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5de97.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_5de97.dir/feature_tests.c.o  -o cmTC_5de97 -rdynamic 
+make[1]: Leaving directory `/scratch/satcheck/satproject/test/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:1c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c99] compiler features compiled with the following output:
+Change Dir: /scratch/satcheck/satproject/test/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/bin/make" "cmTC_e2e2e/fast"
+/usr/local/bin/make -f CMakeFiles/cmTC_e2e2e.dir/build.make CMakeFiles/cmTC_e2e2e.dir/build
+make[1]: Entering directory `/scratch/satcheck/satproject/test/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e2e2e.dir/feature_tests.c.o
+/usr/bin/cc    -std=c99 -o CMakeFiles/cmTC_e2e2e.dir/feature_tests.c.o   -c /scratch/satcheck/satproject/test/NuSMV-2.6.0/NuSMV/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_e2e2e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e2e2e.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_e2e2e.dir/feature_tests.c.o  -o cmTC_e2e2e -rdynamic 
+make[1]: Leaving directory `/scratch/satcheck/satproject/test/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c90] compiler features compiled with the following output:
+Change Dir: /scratch/satcheck/satproject/test/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/bin/make" "cmTC_1b36e/fast"
+/usr/local/bin/make -f CMakeFiles/cmTC_1b36e.dir/build.make CMakeFiles/cmTC_1b36e.dir/build
+make[1]: Entering directory `/scratch/satcheck/satproject/test/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_1b36e.dir/feature_tests.c.o
+/usr/bin/cc    -std=c90 -o CMakeFiles/cmTC_1b36e.dir/feature_tests.c.o   -c /scratch/satcheck/satproject/test/NuSMV-2.6.0/NuSMV/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_1b36e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1b36e.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_1b36e.dir/feature_tests.c.o  -o cmTC_1b36e -rdynamic 
+make[1]: Leaving directory `/scratch/satcheck/satproject/test/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:0c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:0c_variadic_macros
+Determining if the CXX compiler works passed with the following output:
+Change Dir: /scratch/satcheck/satproject/test/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/bin/make" "cmTC_0205b/fast"
+/usr/local/bin/make -f CMakeFiles/cmTC_0205b.dir/build.make CMakeFiles/cmTC_0205b.dir/build
+make[1]: Entering directory `/scratch/satcheck/satproject/test/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_0205b.dir/testCXXCompiler.cxx.o
+/usr/bin/c++      -o CMakeFiles/cmTC_0205b.dir/testCXXCompiler.cxx.o -c /scratch/satcheck/satproject/test/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_0205b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0205b.dir/link.txt --verbose=1
+/usr/bin/c++        CMakeFiles/cmTC_0205b.dir/testCXXCompiler.cxx.o  -o cmTC_0205b -rdynamic 
+make[1]: Leaving directory `/scratch/satcheck/satproject/test/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeTmp'
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /scratch/satcheck/satproject/test/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/bin/make" "cmTC_6ac2d/fast"
+/usr/local/bin/make -f CMakeFiles/cmTC_6ac2d.dir/build.make CMakeFiles/cmTC_6ac2d.dir/build
+make[1]: Entering directory `/scratch/satcheck/satproject/test/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_6ac2d.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/c++      -o CMakeFiles/cmTC_6ac2d.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.5/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTC_6ac2d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6ac2d.dir/link.txt --verbose=1
+/usr/bin/c++       -v CMakeFiles/cmTC_6ac2d.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_6ac2d -rdynamic  
+Using built-in specs.
+COLLECT_GCC=/usr/bin/c++
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 5.5.0-12ubuntu1~16.04' --with-bugurl=file:///usr/share/doc/gcc-5/README.Bugs --enable-languages=c,ada,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-5 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-5-amd64/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-5-amd64 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-5-amd64 --with-arch-directory=amd64 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-objc-gc --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+Thread model: posix
+gcc version 5.5.0 20171010 (Ubuntu 5.5.0-12ubuntu1~16.04) 
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_6ac2d' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/cc8SxreQ.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_6ac2d /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. CMakeFiles/cmTC_6ac2d.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o
+make[1]: Leaving directory `/scratch/satcheck/satproject/test/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeTmp'
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /scratch/satcheck/satproject/test/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/usr/local/bin/make" "cmTC_6ac2d/fast"]
+  ignore line: [/usr/local/bin/make -f CMakeFiles/cmTC_6ac2d.dir/build.make CMakeFiles/cmTC_6ac2d.dir/build]
+  ignore line: [make[1]: Entering directory `/scratch/satcheck/satproject/test/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_6ac2d.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/bin/c++      -o CMakeFiles/cmTC_6ac2d.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.5/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTC_6ac2d]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6ac2d.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/c++       -v CMakeFiles/cmTC_6ac2d.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_6ac2d -rdynamic  ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/c++]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 5.5.0-12ubuntu1~16.04' --with-bugurl=file:///usr/share/doc/gcc-5/README.Bugs --enable-languages=c,ada,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-5 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-5-amd64/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-5-amd64 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-5-amd64 --with-arch-directory=amd64 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-objc-gc --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 5.5.0 20171010 (Ubuntu 5.5.0-12ubuntu1~16.04) ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_6ac2d' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/cc8SxreQ.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_6ac2d /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. CMakeFiles/cmTC_6ac2d.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/5/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/cc8SxreQ.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [--sysroot=/] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_6ac2d] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o] ==> ignore
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/5] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/5]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib]
+    arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+    arg [-L/lib/../lib] ==> dir [/lib/../lib]
+    arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+    arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/5/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../..]
+    arg [CMakeFiles/cmTC_6ac2d.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lm] ==> lib [m]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/5/crtend.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o] ==> ignore
+  remove lib [gcc_s]
+  remove lib [gcc]
+  remove lib [gcc_s]
+  remove lib [gcc]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/5] ==> [/usr/lib/gcc/x86_64-linux-gnu/5]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib] ==> [/usr/lib]
+  collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+  collapse library dir [/lib/../lib] ==> [/lib]
+  collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../..] ==> [/usr/lib]
+  implicit libs: [stdc++;m;c]
+  implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/5;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib]
+  implicit fwks: []
+
+
+
+
+Detecting CXX [-std=c++14] compiler features compiled with the following output:
+Change Dir: /scratch/satcheck/satproject/test/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/bin/make" "cmTC_4cde8/fast"
+/usr/local/bin/make -f CMakeFiles/cmTC_4cde8.dir/build.make CMakeFiles/cmTC_4cde8.dir/build
+make[1]: Entering directory `/scratch/satcheck/satproject/test/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_4cde8.dir/feature_tests.cxx.o
+/usr/bin/c++     -std=c++14 -o CMakeFiles/cmTC_4cde8.dir/feature_tests.cxx.o -c /scratch/satcheck/satproject/test/NuSMV-2.6.0/NuSMV/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_4cde8
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4cde8.dir/link.txt --verbose=1
+/usr/bin/c++        CMakeFiles/cmTC_4cde8.dir/feature_tests.cxx.o  -o cmTC_4cde8 -rdynamic 
+make[1]: Leaving directory `/scratch/satcheck/satproject/test/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:1cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:1cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:1cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:1cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:1cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:1cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:1cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:1cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:1cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:1cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++11] compiler features compiled with the following output:
+Change Dir: /scratch/satcheck/satproject/test/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/bin/make" "cmTC_0d009/fast"
+/usr/local/bin/make -f CMakeFiles/cmTC_0d009.dir/build.make CMakeFiles/cmTC_0d009.dir/build
+make[1]: Entering directory `/scratch/satcheck/satproject/test/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_0d009.dir/feature_tests.cxx.o
+/usr/bin/c++     -std=c++11 -o CMakeFiles/cmTC_0d009.dir/feature_tests.cxx.o -c /scratch/satcheck/satproject/test/NuSMV-2.6.0/NuSMV/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_0d009
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0d009.dir/link.txt --verbose=1
+/usr/bin/c++        CMakeFiles/cmTC_0d009.dir/feature_tests.cxx.o  -o cmTC_0d009 -rdynamic 
+make[1]: Leaving directory `/scratch/satcheck/satproject/test/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:0cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:0cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:0cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:0cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:0cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:0cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:0cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:0cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:0cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:0cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++98] compiler features compiled with the following output:
+Change Dir: /scratch/satcheck/satproject/test/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/bin/make" "cmTC_9cf9d/fast"
+/usr/local/bin/make -f CMakeFiles/cmTC_9cf9d.dir/build.make CMakeFiles/cmTC_9cf9d.dir/build
+make[1]: Entering directory `/scratch/satcheck/satproject/test/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_9cf9d.dir/feature_tests.cxx.o
+/usr/bin/c++     -std=c++98 -o CMakeFiles/cmTC_9cf9d.dir/feature_tests.cxx.o -c /scratch/satcheck/satproject/test/NuSMV-2.6.0/NuSMV/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_9cf9d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9cf9d.dir/link.txt --verbose=1
+/usr/bin/c++        CMakeFiles/cmTC_9cf9d.dir/feature_tests.cxx.o  -o cmTC_9cf9d -rdynamic 
+make[1]: Leaving directory `/scratch/satcheck/satproject/test/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:0cxx_alias_templates
+    Feature record: CXX_FEATURE:0cxx_alignas
+    Feature record: CXX_FEATURE:0cxx_alignof
+    Feature record: CXX_FEATURE:0cxx_attributes
+    Feature record: CXX_FEATURE:0cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:0cxx_auto_type
+    Feature record: CXX_FEATURE:0cxx_binary_literals
+    Feature record: CXX_FEATURE:0cxx_constexpr
+    Feature record: CXX_FEATURE:0cxx_contextual_conversions
+    Feature record: CXX_FEATURE:0cxx_decltype
+    Feature record: CXX_FEATURE:0cxx_decltype_auto
+    Feature record: CXX_FEATURE:0cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:0cxx_default_function_template_args
+    Feature record: CXX_FEATURE:0cxx_defaulted_functions
+    Feature record: CXX_FEATURE:0cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:0cxx_delegating_constructors
+    Feature record: CXX_FEATURE:0cxx_deleted_functions
+    Feature record: CXX_FEATURE:0cxx_digit_separators
+    Feature record: CXX_FEATURE:0cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:0cxx_explicit_conversions
+    Feature record: CXX_FEATURE:0cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:0cxx_extern_templates
+    Feature record: CXX_FEATURE:0cxx_final
+    Feature record: CXX_FEATURE:0cxx_func_identifier
+    Feature record: CXX_FEATURE:0cxx_generalized_initializers
+    Feature record: CXX_FEATURE:0cxx_generic_lambdas
+    Feature record: CXX_FEATURE:0cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:0cxx_inline_namespaces
+    Feature record: CXX_FEATURE:0cxx_lambdas
+    Feature record: CXX_FEATURE:0cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:0cxx_local_type_template_args
+    Feature record: CXX_FEATURE:0cxx_long_long_type
+    Feature record: CXX_FEATURE:0cxx_noexcept
+    Feature record: CXX_FEATURE:0cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:0cxx_nullptr
+    Feature record: CXX_FEATURE:0cxx_override
+    Feature record: CXX_FEATURE:0cxx_range_for
+    Feature record: CXX_FEATURE:0cxx_raw_string_literals
+    Feature record: CXX_FEATURE:0cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:0cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:0cxx_return_type_deduction
+    Feature record: CXX_FEATURE:0cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:0cxx_rvalue_references
+    Feature record: CXX_FEATURE:0cxx_sizeof_member
+    Feature record: CXX_FEATURE:0cxx_static_assert
+    Feature record: CXX_FEATURE:0cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:0cxx_thread_local
+    Feature record: CXX_FEATURE:0cxx_trailing_return_types
+    Feature record: CXX_FEATURE:0cxx_unicode_literals
+    Feature record: CXX_FEATURE:0cxx_uniform_initialization
+    Feature record: CXX_FEATURE:0cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:0cxx_user_literals
+    Feature record: CXX_FEATURE:0cxx_variable_templates
+    Feature record: CXX_FEATURE:0cxx_variadic_macros
+    Feature record: CXX_FEATURE:0cxx_variadic_templates
+Determining if the include file sys/types.h exists passed with the following output:
+Change Dir: /scratch/satcheck/satproject/test/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/bin/make" "cmTC_f67fe/fast"
+/usr/local/bin/make -f CMakeFiles/cmTC_f67fe.dir/build.make CMakeFiles/cmTC_f67fe.dir/build
+make[1]: Entering directory `/scratch/satcheck/satproject/test/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f67fe.dir/CheckIncludeFile.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_f67fe.dir/CheckIncludeFile.c.o   -c /scratch/satcheck/satproject/test/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_f67fe
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f67fe.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_f67fe.dir/CheckIncludeFile.c.o  -o cmTC_f67fe -rdynamic 
+make[1]: Leaving directory `/scratch/satcheck/satproject/test/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file stdint.h exists passed with the following output:
+Change Dir: /scratch/satcheck/satproject/test/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/bin/make" "cmTC_83af0/fast"
+/usr/local/bin/make -f CMakeFiles/cmTC_83af0.dir/build.make CMakeFiles/cmTC_83af0.dir/build
+make[1]: Entering directory `/scratch/satcheck/satproject/test/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_83af0.dir/CheckIncludeFile.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_83af0.dir/CheckIncludeFile.c.o   -c /scratch/satcheck/satproject/test/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_83af0
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_83af0.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_83af0.dir/CheckIncludeFile.c.o  -o cmTC_83af0 -rdynamic 
+make[1]: Leaving directory `/scratch/satcheck/satproject/test/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file stddef.h exists passed with the following output:
+Change Dir: /scratch/satcheck/satproject/test/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/bin/make" "cmTC_dcaa4/fast"
+/usr/local/bin/make -f CMakeFiles/cmTC_dcaa4.dir/build.make CMakeFiles/cmTC_dcaa4.dir/build
+make[1]: Entering directory `/scratch/satcheck/satproject/test/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_dcaa4.dir/CheckIncludeFile.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_dcaa4.dir/CheckIncludeFile.c.o   -c /scratch/satcheck/satproject/test/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_dcaa4
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_dcaa4.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_dcaa4.dir/CheckIncludeFile.c.o  -o cmTC_dcaa4 -rdynamic 
+make[1]: Leaving directory `/scratch/satcheck/satproject/test/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeTmp'
+
+
+Determining size of int passed with the following output:
+Change Dir: /scratch/satcheck/satproject/test/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/bin/make" "cmTC_6781d/fast"
+/usr/local/bin/make -f CMakeFiles/cmTC_6781d.dir/build.make CMakeFiles/cmTC_6781d.dir/build
+make[1]: Entering directory `/scratch/satcheck/satproject/test/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_6781d.dir/_int_size.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_6781d.dir/_int_size.c.o   -c /scratch/satcheck/satproject/test/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CheckTypeSize/_int_size.c
+Linking C executable cmTC_6781d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6781d.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_6781d.dir/_int_size.c.o  -o cmTC_6781d -rdynamic 
+make[1]: Leaving directory `/scratch/satcheck/satproject/test/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeTmp'
+
+
+Determining size of long int passed with the following output:
+Change Dir: /scratch/satcheck/satproject/test/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/bin/make" "cmTC_dc7b0/fast"
+/usr/local/bin/make -f CMakeFiles/cmTC_dc7b0.dir/build.make CMakeFiles/cmTC_dc7b0.dir/build
+make[1]: Entering directory `/scratch/satcheck/satproject/test/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_dc7b0.dir/_long_size.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_dc7b0.dir/_long_size.c.o   -c /scratch/satcheck/satproject/test/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CheckTypeSize/_long_size.c
+Linking C executable cmTC_dc7b0
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_dc7b0.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_dc7b0.dir/_long_size.c.o  -o cmTC_dc7b0 -rdynamic 
+make[1]: Leaving directory `/scratch/satcheck/satproject/test/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeTmp'
+
+
+Determining size of void * passed with the following output:
+Change Dir: /scratch/satcheck/satproject/test/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/bin/make" "cmTC_88c18/fast"
+/usr/local/bin/make -f CMakeFiles/cmTC_88c18.dir/build.make CMakeFiles/cmTC_88c18.dir/build
+make[1]: Entering directory `/scratch/satcheck/satproject/test/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_88c18.dir/_voidp_size.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_88c18.dir/_voidp_size.c.o   -c /scratch/satcheck/satproject/test/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CheckTypeSize/_voidp_size.c
+Linking C executable cmTC_88c18
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_88c18.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_88c18.dir/_voidp_size.c.o  -o cmTC_88c18 -rdynamic 
+make[1]: Leaving directory `/scratch/satcheck/satproject/test/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeTmp'
+
+
+Performing C SOURCE FILE Test _have_funcattr_noreturn succeeded with the following output:
+Change Dir: /scratch/satcheck/satproject/test/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/bin/make" "cmTC_796f8/fast"
+/usr/local/bin/make -f CMakeFiles/cmTC_796f8.dir/build.make CMakeFiles/cmTC_796f8.dir/build
+make[1]: Entering directory `/scratch/satcheck/satproject/test/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_796f8.dir/src.c.o
+/usr/bin/cc    -D_have_funcattr_noreturn   -o CMakeFiles/cmTC_796f8.dir/src.c.o   -c /scratch/satcheck/satproject/test/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeTmp/src.c
+/scratch/satcheck/satproject/test/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeTmp/src.c: In function ‘f’:
+/scratch/satcheck/satproject/test/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeTmp/src.c:2:5: warning: ‘noreturn’ function does return
+     __attribute__ ((noreturn)) void f(void) {}
+     ^
+Linking C executable cmTC_796f8
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_796f8.dir/link.txt --verbose=1
+/usr/bin/cc   -D_have_funcattr_noreturn    CMakeFiles/cmTC_796f8.dir/src.c.o  -o cmTC_796f8 -rdynamic 
+make[1]: Leaving directory `/scratch/satcheck/satproject/test/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+    __attribute__ ((noreturn)) void f(void) {}
+
+    int main(void)
+    {
+        f();
+        return 0;
+    }
+    
+Performing C SOURCE FILE Test _have_funcattr_warn_unused_result succeeded with the following output:
+Change Dir: /scratch/satcheck/satproject/test/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/bin/make" "cmTC_12f4c/fast"
+/usr/local/bin/make -f CMakeFiles/cmTC_12f4c.dir/build.make CMakeFiles/cmTC_12f4c.dir/build
+make[1]: Entering directory `/scratch/satcheck/satproject/test/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_12f4c.dir/src.c.o
+/usr/bin/cc    -D_have_funcattr_warn_unused_result   -o CMakeFiles/cmTC_12f4c.dir/src.c.o   -c /scratch/satcheck/satproject/test/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeTmp/src.c
+/scratch/satcheck/satproject/test/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeTmp/src.c: In function ‘main’:
+/scratch/satcheck/satproject/test/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeTmp/src.c:6:9: warning: ignoring return value of ‘f’, declared with attribute warn_unused_result [-Wunused-result]
+         f(1);
+         ^
+Linking C executable cmTC_12f4c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_12f4c.dir/link.txt --verbose=1
+/usr/bin/cc   -D_have_funcattr_warn_unused_result    CMakeFiles/cmTC_12f4c.dir/src.c.o  -o cmTC_12f4c -rdynamic 
+make[1]: Leaving directory `/scratch/satcheck/satproject/test/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+    __attribute__ ((__warn_unused_result__)) int f(int i) { return i; }
+
+    int main(void)
+    {
+        f(1);
+        return 0;
+    }
+    
+Performing C SOURCE FILE Test HAVE_MALLOC succeeded with the following output:
+Change Dir: /scratch/satcheck/satproject/test/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/bin/make" "cmTC_c3cbe/fast"
+/usr/local/bin/make -f CMakeFiles/cmTC_c3cbe.dir/build.make CMakeFiles/cmTC_c3cbe.dir/build
+make[1]: Entering directory `/scratch/satcheck/satproject/test/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c3cbe.dir/src.c.o
+/usr/bin/cc    -DHAVE_MALLOC   -o CMakeFiles/cmTC_c3cbe.dir/src.c.o   -c /scratch/satcheck/satproject/test/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeTmp/src.c
+/scratch/satcheck/satproject/test/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeTmp/src.c:2:15: warning: conflicting types for built-in function ‘malloc’
+         char *malloc();
+               ^
+Linking C executable cmTC_c3cbe
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c3cbe.dir/link.txt --verbose=1
+/usr/bin/cc   -DHAVE_MALLOC    CMakeFiles/cmTC_c3cbe.dir/src.c.o  -o cmTC_c3cbe -rdynamic 
+make[1]: Leaving directory `/scratch/satcheck/satproject/test/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeTmp'
+
+Return value: 1
+Source file was:
+
+        char *malloc();
+
+        int main(void)
+        {
+            return (!malloc(0));
+        }
+        
+Determining if the include file malloc.h exists passed with the following output:
+Change Dir: /scratch/satcheck/satproject/test/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/bin/make" "cmTC_e92de/fast"
+/usr/local/bin/make -f CMakeFiles/cmTC_e92de.dir/build.make CMakeFiles/cmTC_e92de.dir/build
+make[1]: Entering directory `/scratch/satcheck/satproject/test/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e92de.dir/CheckIncludeFile.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_e92de.dir/CheckIncludeFile.c.o   -c /scratch/satcheck/satproject/test/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_e92de
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e92de.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_e92de.dir/CheckIncludeFile.c.o  -o cmTC_e92de -rdynamic 
+make[1]: Leaving directory `/scratch/satcheck/satproject/test/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file dirent.h exists passed with the following output:
+Change Dir: /scratch/satcheck/satproject/test/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/bin/make" "cmTC_34339/fast"
+/usr/local/bin/make -f CMakeFiles/cmTC_34339.dir/build.make CMakeFiles/cmTC_34339.dir/build
+make[1]: Entering directory `/scratch/satcheck/satproject/test/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_34339.dir/CheckIncludeFile.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_34339.dir/CheckIncludeFile.c.o   -c /scratch/satcheck/satproject/test/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_34339
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_34339.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_34339.dir/CheckIncludeFile.c.o  -o cmTC_34339 -rdynamic 
+make[1]: Leaving directory `/scratch/satcheck/satproject/test/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file dlfcn.h exists passed with the following output:
+Change Dir: /scratch/satcheck/satproject/test/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/bin/make" "cmTC_05290/fast"
+/usr/local/bin/make -f CMakeFiles/cmTC_05290.dir/build.make CMakeFiles/cmTC_05290.dir/build
+make[1]: Entering directory `/scratch/satcheck/satproject/test/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_05290.dir/CheckIncludeFile.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_05290.dir/CheckIncludeFile.c.o   -c /scratch/satcheck/satproject/test/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_05290
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_05290.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_05290.dir/CheckIncludeFile.c.o  -o cmTC_05290 -rdynamic 
+make[1]: Leaving directory `/scratch/satcheck/satproject/test/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file errno.h exists passed with the following output:
+Change Dir: /scratch/satcheck/satproject/test/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/bin/make" "cmTC_77c3d/fast"
+/usr/local/bin/make -f CMakeFiles/cmTC_77c3d.dir/build.make CMakeFiles/cmTC_77c3d.dir/build
+make[1]: Entering directory `/scratch/satcheck/satproject/test/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_77c3d.dir/CheckIncludeFile.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_77c3d.dir/CheckIncludeFile.c.o   -c /scratch/satcheck/satproject/test/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_77c3d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_77c3d.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_77c3d.dir/CheckIncludeFile.c.o  -o cmTC_77c3d -rdynamic 
+make[1]: Leaving directory `/scratch/satcheck/satproject/test/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file float.h exists passed with the following output:
+Change Dir: /scratch/satcheck/satproject/test/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/bin/make" "cmTC_a535a/fast"
+/usr/local/bin/make -f CMakeFiles/cmTC_a535a.dir/build.make CMakeFiles/cmTC_a535a.dir/build
+make[1]: Entering directory `/scratch/satcheck/satproject/test/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a535a.dir/CheckIncludeFile.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_a535a.dir/CheckIncludeFile.c.o   -c /scratch/satcheck/satproject/test/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_a535a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a535a.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_a535a.dir/CheckIncludeFile.c.o  -o cmTC_a535a -rdynamic 
+make[1]: Leaving directory `/scratch/satcheck/satproject/test/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file fnmatch.h exists passed with the following output:
+Change Dir: /scratch/satcheck/satproject/test/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/bin/make" "cmTC_328c1/fast"
+/usr/local/bin/make -f CMakeFiles/cmTC_328c1.dir/build.make CMakeFiles/cmTC_328c1.dir/build
+make[1]: Entering directory `/scratch/satcheck/satproject/test/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_328c1.dir/CheckIncludeFile.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_328c1.dir/CheckIncludeFile.c.o   -c /scratch/satcheck/satproject/test/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_328c1
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_328c1.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_328c1.dir/CheckIncludeFile.c.o  -o cmTC_328c1 -rdynamic 
+make[1]: Leaving directory `/scratch/satcheck/satproject/test/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file inttypes.h exists passed with the following output:
+Change Dir: /scratch/satcheck/satproject/test/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/bin/make" "cmTC_a29b1/fast"
+/usr/local/bin/make -f CMakeFiles/cmTC_a29b1.dir/build.make CMakeFiles/cmTC_a29b1.dir/build
+make[1]: Entering directory `/scratch/satcheck/satproject/test/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a29b1.dir/CheckIncludeFile.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_a29b1.dir/CheckIncludeFile.c.o   -c /scratch/satcheck/satproject/test/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_a29b1
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a29b1.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_a29b1.dir/CheckIncludeFile.c.o  -o cmTC_a29b1 -rdynamic 
+make[1]: Leaving directory `/scratch/satcheck/satproject/test/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file limits.h exists passed with the following output:
+Change Dir: /scratch/satcheck/satproject/test/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/bin/make" "cmTC_82dbb/fast"
+/usr/local/bin/make -f CMakeFiles/cmTC_82dbb.dir/build.make CMakeFiles/cmTC_82dbb.dir/build
+make[1]: Entering directory `/scratch/satcheck/satproject/test/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_82dbb.dir/CheckIncludeFile.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_82dbb.dir/CheckIncludeFile.c.o   -c /scratch/satcheck/satproject/test/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_82dbb
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_82dbb.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_82dbb.dir/CheckIncludeFile.c.o  -o cmTC_82dbb -rdynamic 
+make[1]: Leaving directory `/scratch/satcheck/satproject/test/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file memory.h exists passed with the following output:
+Change Dir: /scratch/satcheck/satproject/test/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/bin/make" "cmTC_fc69e/fast"
+/usr/local/bin/make -f CMakeFiles/cmTC_fc69e.dir/build.make CMakeFiles/cmTC_fc69e.dir/build
+make[1]: Entering directory `/scratch/satcheck/satproject/test/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_fc69e.dir/CheckIncludeFile.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_fc69e.dir/CheckIncludeFile.c.o   -c /scratch/satcheck/satproject/test/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_fc69e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fc69e.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_fc69e.dir/CheckIncludeFile.c.o  -o cmTC_fc69e -rdynamic 
+make[1]: Leaving directory `/scratch/satcheck/satproject/test/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file regex.h exists passed with the following output:
+Change Dir: /scratch/satcheck/satproject/test/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/bin/make" "cmTC_572aa/fast"
+/usr/local/bin/make -f CMakeFiles/cmTC_572aa.dir/build.make CMakeFiles/cmTC_572aa.dir/build
+make[1]: Entering directory `/scratch/satcheck/satproject/test/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_572aa.dir/CheckIncludeFile.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_572aa.dir/CheckIncludeFile.c.o   -c /scratch/satcheck/satproject/test/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_572aa
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_572aa.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_572aa.dir/CheckIncludeFile.c.o  -o cmTC_572aa -rdynamic 
+make[1]: Leaving directory `/scratch/satcheck/satproject/test/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file signal.h exists passed with the following output:
+Change Dir: /scratch/satcheck/satproject/test/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/bin/make" "cmTC_de54c/fast"
+/usr/local/bin/make -f CMakeFiles/cmTC_de54c.dir/build.make CMakeFiles/cmTC_de54c.dir/build
+make[1]: Entering directory `/scratch/satcheck/satproject/test/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_de54c.dir/CheckIncludeFile.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_de54c.dir/CheckIncludeFile.c.o   -c /scratch/satcheck/satproject/test/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_de54c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_de54c.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_de54c.dir/CheckIncludeFile.c.o  -o cmTC_de54c -rdynamic 
+make[1]: Leaving directory `/scratch/satcheck/satproject/test/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file stdbool.h exists passed with the following output:
+Change Dir: /scratch/satcheck/satproject/test/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/bin/make" "cmTC_05f9b/fast"
+/usr/local/bin/make -f CMakeFiles/cmTC_05f9b.dir/build.make CMakeFiles/cmTC_05f9b.dir/build
+make[1]: Entering directory `/scratch/satcheck/satproject/test/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_05f9b.dir/CheckIncludeFile.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_05f9b.dir/CheckIncludeFile.c.o   -c /scratch/satcheck/satproject/test/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_05f9b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_05f9b.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_05f9b.dir/CheckIncludeFile.c.o  -o cmTC_05f9b -rdynamic 
+make[1]: Leaving directory `/scratch/satcheck/satproject/test/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file stdlib.h exists passed with the following output:
+Change Dir: /scratch/satcheck/satproject/test/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/bin/make" "cmTC_d6611/fast"
+/usr/local/bin/make -f CMakeFiles/cmTC_d6611.dir/build.make CMakeFiles/cmTC_d6611.dir/build
+make[1]: Entering directory `/scratch/satcheck/satproject/test/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d6611.dir/CheckIncludeFile.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_d6611.dir/CheckIncludeFile.c.o   -c /scratch/satcheck/satproject/test/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_d6611
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d6611.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_d6611.dir/CheckIncludeFile.c.o  -o cmTC_d6611 -rdynamic 
+make[1]: Leaving directory `/scratch/satcheck/satproject/test/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file string.h exists passed with the following output:
+Change Dir: /scratch/satcheck/satproject/test/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/bin/make" "cmTC_46353/fast"
+/usr/local/bin/make -f CMakeFiles/cmTC_46353.dir/build.make CMakeFiles/cmTC_46353.dir/build
+make[1]: Entering directory `/scratch/satcheck/satproject/test/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_46353.dir/CheckIncludeFile.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_46353.dir/CheckIncludeFile.c.o   -c /scratch/satcheck/satproject/test/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_46353
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_46353.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_46353.dir/CheckIncludeFile.c.o  -o cmTC_46353 -rdynamic 
+make[1]: Leaving directory `/scratch/satcheck/satproject/test/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file strings.h exists passed with the following output:
+Change Dir: /scratch/satcheck/satproject/test/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/bin/make" "cmTC_62ddf/fast"
+/usr/local/bin/make -f CMakeFiles/cmTC_62ddf.dir/build.make CMakeFiles/cmTC_62ddf.dir/build
+make[1]: Entering directory `/scratch/satcheck/satproject/test/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_62ddf.dir/CheckIncludeFile.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_62ddf.dir/CheckIncludeFile.c.o   -c /scratch/satcheck/satproject/test/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_62ddf
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_62ddf.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_62ddf.dir/CheckIncludeFile.c.o  -o cmTC_62ddf -rdynamic 
+make[1]: Leaving directory `/scratch/satcheck/satproject/test/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file sys/dir.h exists passed with the following output:
+Change Dir: /scratch/satcheck/satproject/test/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/bin/make" "cmTC_858a7/fast"
+/usr/local/bin/make -f CMakeFiles/cmTC_858a7.dir/build.make CMakeFiles/cmTC_858a7.dir/build
+make[1]: Entering directory `/scratch/satcheck/satproject/test/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_858a7.dir/CheckIncludeFile.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_858a7.dir/CheckIncludeFile.c.o   -c /scratch/satcheck/satproject/test/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_858a7
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_858a7.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_858a7.dir/CheckIncludeFile.c.o  -o cmTC_858a7 -rdynamic 
+make[1]: Leaving directory `/scratch/satcheck/satproject/test/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file sys/ioctl.h exists passed with the following output:
+Change Dir: /scratch/satcheck/satproject/test/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/bin/make" "cmTC_2699a/fast"
+/usr/local/bin/make -f CMakeFiles/cmTC_2699a.dir/build.make CMakeFiles/cmTC_2699a.dir/build
+make[1]: Entering directory `/scratch/satcheck/satproject/test/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_2699a.dir/CheckIncludeFile.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_2699a.dir/CheckIncludeFile.c.o   -c /scratch/satcheck/satproject/test/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_2699a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2699a.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_2699a.dir/CheckIncludeFile.c.o  -o cmTC_2699a -rdynamic 
+make[1]: Leaving directory `/scratch/satcheck/satproject/test/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file sys/param.h exists passed with the following output:
+Change Dir: /scratch/satcheck/satproject/test/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/bin/make" "cmTC_876e2/fast"
+/usr/local/bin/make -f CMakeFiles/cmTC_876e2.dir/build.make CMakeFiles/cmTC_876e2.dir/build
+make[1]: Entering directory `/scratch/satcheck/satproject/test/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_876e2.dir/CheckIncludeFile.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_876e2.dir/CheckIncludeFile.c.o   -c /scratch/satcheck/satproject/test/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_876e2
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_876e2.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_876e2.dir/CheckIncludeFile.c.o  -o cmTC_876e2 -rdynamic 
+make[1]: Leaving directory `/scratch/satcheck/satproject/test/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file sys/resource.h exists passed with the following output:
+Change Dir: /scratch/satcheck/satproject/test/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/bin/make" "cmTC_fae86/fast"
+/usr/local/bin/make -f CMakeFiles/cmTC_fae86.dir/build.make CMakeFiles/cmTC_fae86.dir/build
+make[1]: Entering directory `/scratch/satcheck/satproject/test/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_fae86.dir/CheckIncludeFile.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_fae86.dir/CheckIncludeFile.c.o   -c /scratch/satcheck/satproject/test/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_fae86
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fae86.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_fae86.dir/CheckIncludeFile.c.o  -o cmTC_fae86 -rdynamic 
+make[1]: Leaving directory `/scratch/satcheck/satproject/test/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file sys/signal.h exists passed with the following output:
+Change Dir: /scratch/satcheck/satproject/test/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/bin/make" "cmTC_88285/fast"
+/usr/local/bin/make -f CMakeFiles/cmTC_88285.dir/build.make CMakeFiles/cmTC_88285.dir/build
+make[1]: Entering directory `/scratch/satcheck/satproject/test/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_88285.dir/CheckIncludeFile.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_88285.dir/CheckIncludeFile.c.o   -c /scratch/satcheck/satproject/test/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_88285
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_88285.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_88285.dir/CheckIncludeFile.c.o  -o cmTC_88285 -rdynamic 
+make[1]: Leaving directory `/scratch/satcheck/satproject/test/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file sys/stat.h exists passed with the following output:
+Change Dir: /scratch/satcheck/satproject/test/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/bin/make" "cmTC_5d996/fast"
+/usr/local/bin/make -f CMakeFiles/cmTC_5d996.dir/build.make CMakeFiles/cmTC_5d996.dir/build
+make[1]: Entering directory `/scratch/satcheck/satproject/test/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_5d996.dir/CheckIncludeFile.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_5d996.dir/CheckIncludeFile.c.o   -c /scratch/satcheck/satproject/test/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_5d996
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5d996.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_5d996.dir/CheckIncludeFile.c.o  -o cmTC_5d996 -rdynamic 
+make[1]: Leaving directory `/scratch/satcheck/satproject/test/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file sys/time.h exists passed with the following output:
+Change Dir: /scratch/satcheck/satproject/test/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/bin/make" "cmTC_1c031/fast"
+/usr/local/bin/make -f CMakeFiles/cmTC_1c031.dir/build.make CMakeFiles/cmTC_1c031.dir/build
+make[1]: Entering directory `/scratch/satcheck/satproject/test/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_1c031.dir/CheckIncludeFile.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_1c031.dir/CheckIncludeFile.c.o   -c /scratch/satcheck/satproject/test/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_1c031
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1c031.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_1c031.dir/CheckIncludeFile.c.o  -o cmTC_1c031 -rdynamic 
+make[1]: Leaving directory `/scratch/satcheck/satproject/test/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file unistd.h exists passed with the following output:
+Change Dir: /scratch/satcheck/satproject/test/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/bin/make" "cmTC_da898/fast"
+/usr/local/bin/make -f CMakeFiles/cmTC_da898.dir/build.make CMakeFiles/cmTC_da898.dir/build
+make[1]: Entering directory `/scratch/satcheck/satproject/test/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_da898.dir/CheckIncludeFile.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_da898.dir/CheckIncludeFile.c.o   -c /scratch/satcheck/satproject/test/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_da898
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_da898.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_da898.dir/CheckIncludeFile.c.o  -o cmTC_da898 -rdynamic 
+make[1]: Leaving directory `/scratch/satcheck/satproject/test/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function getenv exists passed with the following output:
+Change Dir: /scratch/satcheck/satproject/test/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/bin/make" "cmTC_fdebe/fast"
+/usr/local/bin/make -f CMakeFiles/cmTC_fdebe.dir/build.make CMakeFiles/cmTC_fdebe.dir/build
+make[1]: Entering directory `/scratch/satcheck/satproject/test/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_fdebe.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=getenv   -o CMakeFiles/cmTC_fdebe.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_fdebe
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fdebe.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=getenv    CMakeFiles/cmTC_fdebe.dir/CheckFunctionExists.c.o  -o cmTC_fdebe -rdynamic 
+make[1]: Leaving directory `/scratch/satcheck/satproject/test/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function getpid exists passed with the following output:
+Change Dir: /scratch/satcheck/satproject/test/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/bin/make" "cmTC_3bfc8/fast"
+/usr/local/bin/make -f CMakeFiles/cmTC_3bfc8.dir/build.make CMakeFiles/cmTC_3bfc8.dir/build
+make[1]: Entering directory `/scratch/satcheck/satproject/test/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_3bfc8.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=getpid   -o CMakeFiles/cmTC_3bfc8.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_3bfc8
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3bfc8.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=getpid    CMakeFiles/cmTC_3bfc8.dir/CheckFunctionExists.c.o  -o cmTC_3bfc8 -rdynamic 
+make[1]: Leaving directory `/scratch/satcheck/satproject/test/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function isatty exists passed with the following output:
+Change Dir: /scratch/satcheck/satproject/test/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/bin/make" "cmTC_5646a/fast"
+/usr/local/bin/make -f CMakeFiles/cmTC_5646a.dir/build.make CMakeFiles/cmTC_5646a.dir/build
+make[1]: Entering directory `/scratch/satcheck/satproject/test/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_5646a.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=isatty   -o CMakeFiles/cmTC_5646a.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_5646a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5646a.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=isatty    CMakeFiles/cmTC_5646a.dir/CheckFunctionExists.c.o  -o cmTC_5646a -rdynamic 
+make[1]: Leaving directory `/scratch/satcheck/satproject/test/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function memmove exists passed with the following output:
+Change Dir: /scratch/satcheck/satproject/test/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/bin/make" "cmTC_0c8b0/fast"
+/usr/local/bin/make -f CMakeFiles/cmTC_0c8b0.dir/build.make CMakeFiles/cmTC_0c8b0.dir/build
+make[1]: Entering directory `/scratch/satcheck/satproject/test/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_0c8b0.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=memmove   -o CMakeFiles/cmTC_0c8b0.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+<command-line>:0:23: warning: conflicting types for built-in function ‘memmove’
+/usr/share/cmake-3.5/Modules/CheckFunctionExists.c:6:6: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+ char CHECK_FUNCTION_EXISTS();
+      ^
+Linking C executable cmTC_0c8b0
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0c8b0.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=memmove    CMakeFiles/cmTC_0c8b0.dir/CheckFunctionExists.c.o  -o cmTC_0c8b0 -rdynamic 
+make[1]: Leaving directory `/scratch/satcheck/satproject/test/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function memset exists passed with the following output:
+Change Dir: /scratch/satcheck/satproject/test/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/bin/make" "cmTC_bf205/fast"
+/usr/local/bin/make -f CMakeFiles/cmTC_bf205.dir/build.make CMakeFiles/cmTC_bf205.dir/build
+make[1]: Entering directory `/scratch/satcheck/satproject/test/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_bf205.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=memset   -o CMakeFiles/cmTC_bf205.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+<command-line>:0:23: warning: conflicting types for built-in function ‘memset’
+/usr/share/cmake-3.5/Modules/CheckFunctionExists.c:6:6: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+ char CHECK_FUNCTION_EXISTS();
+      ^
+Linking C executable cmTC_bf205
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bf205.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=memset    CMakeFiles/cmTC_bf205.dir/CheckFunctionExists.c.o  -o cmTC_bf205 -rdynamic 
+make[1]: Leaving directory `/scratch/satcheck/satproject/test/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function mkstemp exists passed with the following output:
+Change Dir: /scratch/satcheck/satproject/test/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/bin/make" "cmTC_f6e2a/fast"
+/usr/local/bin/make -f CMakeFiles/cmTC_f6e2a.dir/build.make CMakeFiles/cmTC_f6e2a.dir/build
+make[1]: Entering directory `/scratch/satcheck/satproject/test/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f6e2a.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=mkstemp   -o CMakeFiles/cmTC_f6e2a.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_f6e2a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f6e2a.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=mkstemp    CMakeFiles/cmTC_f6e2a.dir/CheckFunctionExists.c.o  -o cmTC_f6e2a -rdynamic 
+make[1]: Leaving directory `/scratch/satcheck/satproject/test/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function mktemp exists passed with the following output:
+Change Dir: /scratch/satcheck/satproject/test/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/bin/make" "cmTC_c7789/fast"
+/usr/local/bin/make -f CMakeFiles/cmTC_c7789.dir/build.make CMakeFiles/cmTC_c7789.dir/build
+make[1]: Entering directory `/scratch/satcheck/satproject/test/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c7789.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=mktemp   -o CMakeFiles/cmTC_c7789.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_c7789
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c7789.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=mktemp    CMakeFiles/cmTC_c7789.dir/CheckFunctionExists.c.o  -o cmTC_c7789 -rdynamic 
+CMakeFiles/cmTC_c7789.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x15): warning: the use of `mktemp' is dangerous, better use `mkstemp' or `mkdtemp'
+make[1]: Leaving directory `/scratch/satcheck/satproject/test/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function popen exists passed with the following output:
+Change Dir: /scratch/satcheck/satproject/test/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/bin/make" "cmTC_10f2f/fast"
+/usr/local/bin/make -f CMakeFiles/cmTC_10f2f.dir/build.make CMakeFiles/cmTC_10f2f.dir/build
+make[1]: Entering directory `/scratch/satcheck/satproject/test/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_10f2f.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=popen   -o CMakeFiles/cmTC_10f2f.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_10f2f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_10f2f.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=popen    CMakeFiles/cmTC_10f2f.dir/CheckFunctionExists.c.o  -o cmTC_10f2f -rdynamic 
+make[1]: Leaving directory `/scratch/satcheck/satproject/test/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function random exists passed with the following output:
+Change Dir: /scratch/satcheck/satproject/test/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/bin/make" "cmTC_d8897/fast"
+/usr/local/bin/make -f CMakeFiles/cmTC_d8897.dir/build.make CMakeFiles/cmTC_d8897.dir/build
+make[1]: Entering directory `/scratch/satcheck/satproject/test/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d8897.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=random   -o CMakeFiles/cmTC_d8897.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_d8897
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d8897.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=random    CMakeFiles/cmTC_d8897.dir/CheckFunctionExists.c.o  -o cmTC_d8897 -rdynamic 
+make[1]: Leaving directory `/scratch/satcheck/satproject/test/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function realloc exists passed with the following output:
+Change Dir: /scratch/satcheck/satproject/test/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/bin/make" "cmTC_f44f0/fast"
+/usr/local/bin/make -f CMakeFiles/cmTC_f44f0.dir/build.make CMakeFiles/cmTC_f44f0.dir/build
+make[1]: Entering directory `/scratch/satcheck/satproject/test/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f44f0.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=realloc   -o CMakeFiles/cmTC_f44f0.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+<command-line>:0:23: warning: conflicting types for built-in function ‘realloc’
+/usr/share/cmake-3.5/Modules/CheckFunctionExists.c:6:6: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+ char CHECK_FUNCTION_EXISTS();
+      ^
+Linking C executable cmTC_f44f0
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f44f0.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=realloc    CMakeFiles/cmTC_f44f0.dir/CheckFunctionExists.c.o  -o cmTC_f44f0 -rdynamic 
+make[1]: Leaving directory `/scratch/satcheck/satproject/test/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function setvbuf exists passed with the following output:
+Change Dir: /scratch/satcheck/satproject/test/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/bin/make" "cmTC_674c4/fast"
+/usr/local/bin/make -f CMakeFiles/cmTC_674c4.dir/build.make CMakeFiles/cmTC_674c4.dir/build
+make[1]: Entering directory `/scratch/satcheck/satproject/test/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_674c4.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=setvbuf   -o CMakeFiles/cmTC_674c4.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_674c4
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_674c4.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=setvbuf    CMakeFiles/cmTC_674c4.dir/CheckFunctionExists.c.o  -o cmTC_674c4 -rdynamic 
+make[1]: Leaving directory `/scratch/satcheck/satproject/test/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function srandom exists passed with the following output:
+Change Dir: /scratch/satcheck/satproject/test/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/bin/make" "cmTC_61a4e/fast"
+/usr/local/bin/make -f CMakeFiles/cmTC_61a4e.dir/build.make CMakeFiles/cmTC_61a4e.dir/build
+make[1]: Entering directory `/scratch/satcheck/satproject/test/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_61a4e.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=srandom   -o CMakeFiles/cmTC_61a4e.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_61a4e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_61a4e.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=srandom    CMakeFiles/cmTC_61a4e.dir/CheckFunctionExists.c.o  -o cmTC_61a4e -rdynamic 
+make[1]: Leaving directory `/scratch/satcheck/satproject/test/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function strcasecmp exists passed with the following output:
+Change Dir: /scratch/satcheck/satproject/test/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/bin/make" "cmTC_ec83b/fast"
+/usr/local/bin/make -f CMakeFiles/cmTC_ec83b.dir/build.make CMakeFiles/cmTC_ec83b.dir/build
+make[1]: Entering directory `/scratch/satcheck/satproject/test/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ec83b.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=strcasecmp   -o CMakeFiles/cmTC_ec83b.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+<command-line>:0:23: warning: conflicting types for built-in function ‘strcasecmp’
+/usr/share/cmake-3.5/Modules/CheckFunctionExists.c:6:6: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+ char CHECK_FUNCTION_EXISTS();
+      ^
+Linking C executable cmTC_ec83b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ec83b.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=strcasecmp    CMakeFiles/cmTC_ec83b.dir/CheckFunctionExists.c.o  -o cmTC_ec83b -rdynamic 
+make[1]: Leaving directory `/scratch/satcheck/satproject/test/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function strchr exists passed with the following output:
+Change Dir: /scratch/satcheck/satproject/test/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/bin/make" "cmTC_87ebf/fast"
+/usr/local/bin/make -f CMakeFiles/cmTC_87ebf.dir/build.make CMakeFiles/cmTC_87ebf.dir/build
+make[1]: Entering directory `/scratch/satcheck/satproject/test/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_87ebf.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=strchr   -o CMakeFiles/cmTC_87ebf.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+<command-line>:0:23: warning: conflicting types for built-in function ‘strchr’
+/usr/share/cmake-3.5/Modules/CheckFunctionExists.c:6:6: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+ char CHECK_FUNCTION_EXISTS();
+      ^
+Linking C executable cmTC_87ebf
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_87ebf.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=strchr    CMakeFiles/cmTC_87ebf.dir/CheckFunctionExists.c.o  -o cmTC_87ebf -rdynamic 
+make[1]: Leaving directory `/scratch/satcheck/satproject/test/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function strrchr exists passed with the following output:
+Change Dir: /scratch/satcheck/satproject/test/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/bin/make" "cmTC_6271e/fast"
+/usr/local/bin/make -f CMakeFiles/cmTC_6271e.dir/build.make CMakeFiles/cmTC_6271e.dir/build
+make[1]: Entering directory `/scratch/satcheck/satproject/test/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_6271e.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=strrchr   -o CMakeFiles/cmTC_6271e.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+<command-line>:0:23: warning: conflicting types for built-in function ‘strrchr’
+/usr/share/cmake-3.5/Modules/CheckFunctionExists.c:6:6: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+ char CHECK_FUNCTION_EXISTS();
+      ^
+Linking C executable cmTC_6271e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6271e.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=strrchr    CMakeFiles/cmTC_6271e.dir/CheckFunctionExists.c.o  -o cmTC_6271e -rdynamic 
+make[1]: Leaving directory `/scratch/satcheck/satproject/test/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function strstr exists passed with the following output:
+Change Dir: /scratch/satcheck/satproject/test/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/bin/make" "cmTC_9c0e0/fast"
+/usr/local/bin/make -f CMakeFiles/cmTC_9c0e0.dir/build.make CMakeFiles/cmTC_9c0e0.dir/build
+make[1]: Entering directory `/scratch/satcheck/satproject/test/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_9c0e0.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=strstr   -o CMakeFiles/cmTC_9c0e0.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+<command-line>:0:23: warning: conflicting types for built-in function ‘strstr’
+/usr/share/cmake-3.5/Modules/CheckFunctionExists.c:6:6: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+ char CHECK_FUNCTION_EXISTS();
+      ^
+Linking C executable cmTC_9c0e0
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9c0e0.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=strstr    CMakeFiles/cmTC_9c0e0.dir/CheckFunctionExists.c.o  -o cmTC_9c0e0 -rdynamic 
+make[1]: Leaving directory `/scratch/satcheck/satproject/test/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function strtod exists passed with the following output:
+Change Dir: /scratch/satcheck/satproject/test/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/bin/make" "cmTC_fcef4/fast"
+/usr/local/bin/make -f CMakeFiles/cmTC_fcef4.dir/build.make CMakeFiles/cmTC_fcef4.dir/build
+make[1]: Entering directory `/scratch/satcheck/satproject/test/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_fcef4.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=strtod   -o CMakeFiles/cmTC_fcef4.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_fcef4
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fcef4.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=strtod    CMakeFiles/cmTC_fcef4.dir/CheckFunctionExists.c.o  -o cmTC_fcef4 -rdynamic 
+make[1]: Leaving directory `/scratch/satcheck/satproject/test/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function strtol exists passed with the following output:
+Change Dir: /scratch/satcheck/satproject/test/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/bin/make" "cmTC_88c51/fast"
+/usr/local/bin/make -f CMakeFiles/cmTC_88c51.dir/build.make CMakeFiles/cmTC_88c51.dir/build
+make[1]: Entering directory `/scratch/satcheck/satproject/test/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_88c51.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=strtol   -o CMakeFiles/cmTC_88c51.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_88c51
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_88c51.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=strtol    CMakeFiles/cmTC_88c51.dir/CheckFunctionExists.c.o  -o cmTC_88c51 -rdynamic 
+make[1]: Leaving directory `/scratch/satcheck/satproject/test/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function strtoull exists passed with the following output:
+Change Dir: /scratch/satcheck/satproject/test/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/bin/make" "cmTC_b9bd8/fast"
+/usr/local/bin/make -f CMakeFiles/cmTC_b9bd8.dir/build.make CMakeFiles/cmTC_b9bd8.dir/build
+make[1]: Entering directory `/scratch/satcheck/satproject/test/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b9bd8.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=strtoull   -o CMakeFiles/cmTC_b9bd8.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_b9bd8
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b9bd8.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=strtoull    CMakeFiles/cmTC_b9bd8.dir/CheckFunctionExists.c.o  -o cmTC_b9bd8 -rdynamic 
+make[1]: Leaving directory `/scratch/satcheck/satproject/test/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function system exists passed with the following output:
+Change Dir: /scratch/satcheck/satproject/test/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/bin/make" "cmTC_73a82/fast"
+/usr/local/bin/make -f CMakeFiles/cmTC_73a82.dir/build.make CMakeFiles/cmTC_73a82.dir/build
+make[1]: Entering directory `/scratch/satcheck/satproject/test/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_73a82.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=system   -o CMakeFiles/cmTC_73a82.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_73a82
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_73a82.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=system    CMakeFiles/cmTC_73a82.dir/CheckFunctionExists.c.o  -o cmTC_73a82 -rdynamic 
+make[1]: Leaving directory `/scratch/satcheck/satproject/test/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function tmpnam exists passed with the following output:
+Change Dir: /scratch/satcheck/satproject/test/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/bin/make" "cmTC_66f62/fast"
+/usr/local/bin/make -f CMakeFiles/cmTC_66f62.dir/build.make CMakeFiles/cmTC_66f62.dir/build
+make[1]: Entering directory `/scratch/satcheck/satproject/test/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_66f62.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=tmpnam   -o CMakeFiles/cmTC_66f62.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_66f62
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_66f62.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=tmpnam    CMakeFiles/cmTC_66f62.dir/CheckFunctionExists.c.o  -o cmTC_66f62 -rdynamic 
+CMakeFiles/cmTC_66f62.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x15): warning: the use of `tmpnam' is dangerous, better use `mkstemp'
+make[1]: Leaving directory `/scratch/satcheck/satproject/test/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function vprintf exists passed with the following output:
+Change Dir: /scratch/satcheck/satproject/test/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/bin/make" "cmTC_2102c/fast"
+/usr/local/bin/make -f CMakeFiles/cmTC_2102c.dir/build.make CMakeFiles/cmTC_2102c.dir/build
+make[1]: Entering directory `/scratch/satcheck/satproject/test/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_2102c.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=vprintf   -o CMakeFiles/cmTC_2102c.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+<command-line>:0:23: warning: conflicting types for built-in function ‘vprintf’
+/usr/share/cmake-3.5/Modules/CheckFunctionExists.c:6:6: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+ char CHECK_FUNCTION_EXISTS();
+      ^
+Linking C executable cmTC_2102c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2102c.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=vprintf    CMakeFiles/cmTC_2102c.dir/CheckFunctionExists.c.o  -o cmTC_2102c -rdynamic 
+make[1]: Leaving directory `/scratch/satcheck/satproject/test/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeTmp'
+
+
+Performing C SOURCE FILE Test HAVE__BOOL succeeded with the following output:
+Change Dir: /scratch/satcheck/satproject/test/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/bin/make" "cmTC_2cbeb/fast"
+/usr/local/bin/make -f CMakeFiles/cmTC_2cbeb.dir/build.make CMakeFiles/cmTC_2cbeb.dir/build
+make[1]: Entering directory `/scratch/satcheck/satproject/test/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_2cbeb.dir/src.c.o
+/usr/bin/cc    -DHAVE__BOOL   -o CMakeFiles/cmTC_2cbeb.dir/src.c.o   -c /scratch/satcheck/satproject/test/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_2cbeb
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2cbeb.dir/link.txt --verbose=1
+/usr/bin/cc   -DHAVE__BOOL    CMakeFiles/cmTC_2cbeb.dir/src.c.o  -o cmTC_2cbeb -rdynamic 
+make[1]: Leaving directory `/scratch/satcheck/satproject/test/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+    #include <stdbool.h>
+    int main(void)
+    {
+        _Bool b;
+        return 0;
+    }
+    
+Determining size of int passed with the following output:
+Change Dir: /scratch/satcheck/satproject/test/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/bin/make" "cmTC_c2dbc/fast"
+/usr/local/bin/make -f CMakeFiles/cmTC_c2dbc.dir/build.make CMakeFiles/cmTC_c2dbc.dir/build
+make[1]: Entering directory `/scratch/satcheck/satproject/test/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c2dbc.dir/SIZEOF_INT.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_c2dbc.dir/SIZEOF_INT.c.o   -c /scratch/satcheck/satproject/test/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CheckTypeSize/SIZEOF_INT.c
+Linking C executable cmTC_c2dbc
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c2dbc.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_c2dbc.dir/SIZEOF_INT.c.o  -o cmTC_c2dbc -rdynamic 
+make[1]: Leaving directory `/scratch/satcheck/satproject/test/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeTmp'
+
+
+Determining size of long passed with the following output:
+Change Dir: /scratch/satcheck/satproject/test/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/bin/make" "cmTC_a43d3/fast"
+/usr/local/bin/make -f CMakeFiles/cmTC_a43d3.dir/build.make CMakeFiles/cmTC_a43d3.dir/build
+make[1]: Entering directory `/scratch/satcheck/satproject/test/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a43d3.dir/SIZEOF_LONG.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_a43d3.dir/SIZEOF_LONG.c.o   -c /scratch/satcheck/satproject/test/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CheckTypeSize/SIZEOF_LONG.c
+Linking C executable cmTC_a43d3
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a43d3.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_a43d3.dir/SIZEOF_LONG.c.o  -o cmTC_a43d3 -rdynamic 
+make[1]: Leaving directory `/scratch/satcheck/satproject/test/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeTmp'
+
+
+Determining size of long long passed with the following output:
+Change Dir: /scratch/satcheck/satproject/test/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/bin/make" "cmTC_7a18b/fast"
+/usr/local/bin/make -f CMakeFiles/cmTC_7a18b.dir/build.make CMakeFiles/cmTC_7a18b.dir/build
+make[1]: Entering directory `/scratch/satcheck/satproject/test/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_7a18b.dir/SIZEOF_LONG_LONG.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_7a18b.dir/SIZEOF_LONG_LONG.c.o   -c /scratch/satcheck/satproject/test/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CheckTypeSize/SIZEOF_LONG_LONG.c
+Linking C executable cmTC_7a18b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7a18b.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_7a18b.dir/SIZEOF_LONG_LONG.c.o  -o cmTC_7a18b -rdynamic 
+make[1]: Leaving directory `/scratch/satcheck/satproject/test/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeTmp'
+
+
+Determining size of void * passed with the following output:
+Change Dir: /scratch/satcheck/satproject/test/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/bin/make" "cmTC_26a72/fast"
+/usr/local/bin/make -f CMakeFiles/cmTC_26a72.dir/build.make CMakeFiles/cmTC_26a72.dir/build
+make[1]: Entering directory `/scratch/satcheck/satproject/test/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_26a72.dir/SIZEOF_VOID_P.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_26a72.dir/SIZEOF_VOID_P.c.o   -c /scratch/satcheck/satproject/test/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CheckTypeSize/SIZEOF_VOID_P.c
+Linking C executable cmTC_26a72
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_26a72.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_26a72.dir/SIZEOF_VOID_P.c.o  -o cmTC_26a72 -rdynamic 
+make[1]: Leaving directory `/scratch/satcheck/satproject/test/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeTmp'
+
+

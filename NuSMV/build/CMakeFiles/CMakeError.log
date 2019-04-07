@@ -1,0 +1,76 @@
+Determining if the include file ndir.h exists failed with the following output:
+Change Dir: /scratch/satcheck/satproject/test/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/bin/make" "cmTC_71c38/fast"
+/usr/local/bin/make -f CMakeFiles/cmTC_71c38.dir/build.make CMakeFiles/cmTC_71c38.dir/build
+make[1]: Entering directory `/scratch/satcheck/satproject/test/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_71c38.dir/CheckIncludeFile.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_71c38.dir/CheckIncludeFile.c.o   -c /scratch/satcheck/satproject/test/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/scratch/satcheck/satproject/test/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:18: fatal error: ndir.h: No such file or directory
+compilation terminated.
+make[1]: *** [CMakeFiles/cmTC_71c38.dir/CheckIncludeFile.c.o] Error 1
+make[1]: Leaving directory `/scratch/satcheck/satproject/test/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeTmp'
+make: *** [cmTC_71c38/fast] Error 2
+
+
+Determining if the include file sys/ndir.h exists failed with the following output:
+Change Dir: /scratch/satcheck/satproject/test/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/bin/make" "cmTC_e0671/fast"
+/usr/local/bin/make -f CMakeFiles/cmTC_e0671.dir/build.make CMakeFiles/cmTC_e0671.dir/build
+make[1]: Entering directory `/scratch/satcheck/satproject/test/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e0671.dir/CheckIncludeFile.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_e0671.dir/CheckIncludeFile.c.o   -c /scratch/satcheck/satproject/test/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/scratch/satcheck/satproject/test/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:22: fatal error: sys/ndir.h: No such file or directory
+compilation terminated.
+make[1]: *** [CMakeFiles/cmTC_e0671.dir/CheckIncludeFile.c.o] Error 1
+make[1]: Leaving directory `/scratch/satcheck/satproject/test/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeTmp'
+make: *** [cmTC_e0671/fast] Error 2
+
+
+Determining if the function floor exists failed with the following output:
+Change Dir: /scratch/satcheck/satproject/test/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/bin/make" "cmTC_b86aa/fast"
+/usr/local/bin/make -f CMakeFiles/cmTC_b86aa.dir/build.make CMakeFiles/cmTC_b86aa.dir/build
+make[1]: Entering directory `/scratch/satcheck/satproject/test/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b86aa.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=floor   -o CMakeFiles/cmTC_b86aa.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+<command-line>:0:23: warning: conflicting types for built-in function ‘floor’
+/usr/share/cmake-3.5/Modules/CheckFunctionExists.c:6:6: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+ char CHECK_FUNCTION_EXISTS();
+      ^
+Linking C executable cmTC_b86aa
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b86aa.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=floor    CMakeFiles/cmTC_b86aa.dir/CheckFunctionExists.c.o  -o cmTC_b86aa -rdynamic 
+CMakeFiles/cmTC_b86aa.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x15): undefined reference to `floor'
+collect2: error: ld returned 1 exit status
+make[1]: *** [cmTC_b86aa] Error 1
+make[1]: Leaving directory `/scratch/satcheck/satproject/test/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeTmp'
+make: *** [cmTC_b86aa/fast] Error 2
+
+
+Determining if the function pow exists failed with the following output:
+Change Dir: /scratch/satcheck/satproject/test/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/bin/make" "cmTC_37977/fast"
+/usr/local/bin/make -f CMakeFiles/cmTC_37977.dir/build.make CMakeFiles/cmTC_37977.dir/build
+make[1]: Entering directory `/scratch/satcheck/satproject/test/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_37977.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=pow   -o CMakeFiles/cmTC_37977.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+<command-line>:0:23: warning: conflicting types for built-in function ‘pow’
+/usr/share/cmake-3.5/Modules/CheckFunctionExists.c:6:6: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+ char CHECK_FUNCTION_EXISTS();
+      ^
+Linking C executable cmTC_37977
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_37977.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pow    CMakeFiles/cmTC_37977.dir/CheckFunctionExists.c.o  -o cmTC_37977 -rdynamic 
+CMakeFiles/cmTC_37977.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x15): undefined reference to `pow'
+collect2: error: ld returned 1 exit status
+make[1]: *** [cmTC_37977] Error 1
+make[1]: Leaving directory `/scratch/satcheck/satproject/test/NuSMV-2.6.0/NuSMV/build/CMakeFiles/CMakeTmp'
+make: *** [cmTC_37977/fast] Error 2
+
+
